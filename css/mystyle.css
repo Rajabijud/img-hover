@@ -1,0 +1,35 @@
+
+body{
+
+	text-align:right;
+	text-decoration:none;
+	direction:ltr;
+  max-height: 86vh;	
+  margin: 0;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#pic-car1{
+	border-top:10px solid gold;
+	border-left: 10px solid gold;
+	width: 50%;
+	transition: border 0.5s ;
+}
+#pic-car1:hover{
+	border: 10px solid gold;
+	width: 100%;
+}
+#pic-car2{
+	border-top:10px solid rgb(77, 15, 15);
+	border-left: 10px solid rgb(77, 15, 15);
+	width: 50%;
+}
+#pic-car2:hover{
+	border:10px solid rgb(77, 15, 15);
+	width: 100%
+}
+
+
